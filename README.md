@@ -17,7 +17,7 @@ A full-stack web application built with Angular 19 and Node.js, featuring user a
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/NAVEENRAJ2004/Mpolychek-assignment1
 cd mploychek
 ```
 
