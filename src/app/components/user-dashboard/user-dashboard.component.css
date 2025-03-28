@@ -1,0 +1,128 @@
+
+.user-dashboard {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px;
+  } 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #2f2f2f;
+    color: white;
+    box-shadow: 0 2px 10px rgba(43, 43, 43, 0.1);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .logout-btn {
+    background-color: #e74c3c;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 30px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .admin-dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  .personal-info {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .task-management {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .add-task {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-task input {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-task button {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-item .delete-btn {
+    margin-left: auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
